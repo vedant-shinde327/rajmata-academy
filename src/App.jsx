@@ -69,7 +69,7 @@ const GALLERY_ITEMS = [
 const WHATSAPP_MSG = encodeURIComponent(
   "Hello Sir,\n\nI would like to enquire about admission at Rajmata Jijau Academy.\n\nStudent Name:\nClass:\nSchool:\n\nPlease provide details regarding fees and batch timings."
 );
-const WA_LINK = `https://wa.me/918208664612?text=${WHATSAPP_MSG}`;
+const WA_LINK = `https://wa.me/919206079696?text=${WHATSAPP_MSG}`;
 const CALL_LINK = "tel:9206079696";
 
 // ─── THEME COLORS ─────────────────────────────────────────────────────────────
