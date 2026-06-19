@@ -899,7 +899,7 @@ function AdmissionsPage() {
             <div style={{ marginTop: 32, padding: 20, background: `${C.maroon}10`, borderRadius: 12, border: `1px solid ${C.maroon}30` }}>
               <div style={{ fontWeight: 700, color: C.maroon, fontSize: 15, marginBottom: 8 }}>Quick Contact</div>
               <a href={CALL_LINK} style={{ display: "flex", alignItems: "center", gap: 8, color: C.dark, textDecoration: "none", fontWeight: 600, fontSize: 14, marginBottom: 8 }}><Phone size={16} color={C.maroon} /> 9206079696</a>
-              <a href={WA_LINK} target="_blank" rel="noreferrer" style={{ display: "flex", alignItems: "center", gap: 8, color: C.dark, textDecoration: "none", fontWeight: 600, fontSize: 14 }}><MessageCircle size={16} color="#25D366" /> 8208664612 (WhatsApp)</a>
+              <a href={WA_LINK} target="_blank" rel="noreferrer" style={{ display: "flex", alignItems: "center", gap: 8, color: C.dark, textDecoration: "none", fontWeight: 600, fontSize: 14 }}><MessageCircle size={16} color="#25D366" /> 9206079696 (WhatsApp)</a>
             </div>
           </div>
 
@@ -970,7 +970,7 @@ function ContactPage() {
             {[
               { icon: <MapPin size={20} />, title: "Address", content: "Near Shri Siddheshwar School,\nChhatrapati Colony, Vasmat, Maharashtra" },
               { icon: <Phone size={20} />, title: "Phone", content: "9206079696", href: CALL_LINK },
-              { icon: <MessageCircle size={20} />, title: "WhatsApp", content: "8208664612", href: WA_LINK },
+              { icon: <MessageCircle size={20} />, title: "WhatsApp", content: "9206079696", href: WA_LINK },
             ].map(item => (
               <div key={item.title} style={{ display: "flex", gap: 14, marginBottom: 24, padding: 20, background: "#fff", borderRadius: 12, boxShadow: "0 2px 12px rgba(0,0,0,0.06)", border: `1px solid ${C.border}` }}>
                 <div style={{ width: 44, height: 44, borderRadius: 10, background: `${C.maroon}15`, display: "flex", alignItems: "center", justifyContent: "center", color: C.maroon, flexShrink: 0 }}>{item.icon}</div>
@@ -1261,7 +1261,7 @@ function Footer({ setPage }) {
               <Phone size={14} color={C.gold} /> 9206079696
             </a>
             <a href={WA_LINK} target="_blank" rel="noreferrer" style={{ display: "flex", gap: 10, alignItems: "center", color: "rgba(255,255,255,0.65)", textDecoration: "none", fontSize: 13 }}>
-              <MessageCircle size={14} color="#25D366" /> 8208664612 (WhatsApp)
+              <MessageCircle size={14} color="#25D366" /> 9206079696 (WhatsApp)
             </a>
           </div>
           <div>
